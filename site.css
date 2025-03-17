@@ -1,0 +1,36 @@
+body{
+    height: 50vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+.mylabel{
+    color: white;
+    font-size: 65px;
+}
+
+.myDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.myButtons{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border: white;
+    border-radius: 20px;
+    transition: all 0.24s;
+}
+.myButtons:hover{
+    background-color: yellowgreen;
+    color: brown;
+}
+.myButtons:active{
+    background-color: white;
+    color: black;
+}
